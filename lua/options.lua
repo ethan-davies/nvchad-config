@@ -49,7 +49,7 @@ local custom = {
     updatetime = 100,
     lazyredraw = false,
     iskeyword = vim.opt.iskeyword:append { "_", "@", ".", "-" },
-    path = vim.opt.path:append { "**", "lua", "src" },
+    path = vim.opt.path:append { "**", "lua", "src", "main", "java" },
   },
 }
 

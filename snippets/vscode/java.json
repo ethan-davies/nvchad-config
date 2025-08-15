@@ -1,0 +1,90 @@
+{
+  "Java Class": {
+    "prefix": "class",
+    "body": [
+      "public class ${1:ClassName} {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a new Java class"
+  },
+  "Java Main Method": {
+    "prefix": "main",
+    "body": [
+      "public static void main(String[] args) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Main method"
+  },
+  "Java Method": {
+    "prefix": "method",
+    "body": [
+      "${1:public} ${2:void} ${3:methodName}(${4:}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a new Java method"
+  },
+  "Java Constructor": {
+    "prefix": "constructor",
+    "body": [
+      "public ${1:ClassName}(${2:}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a constructor"
+  },
+  "Java For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (${1:int i = 0}; ${2:i < length}; ${3:i++}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "For loop"
+  },
+  "Java Enhanced For Loop": {
+    "prefix": "foreach",
+    "body": [
+      "for (${1:Type} ${2:item} : ${3:collection}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Enhanced for loop"
+  },
+  "Java If Statement": {
+    "prefix": "if",
+    "body": [
+      "if (${1:condition}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "If statement"
+  },
+  "Java Try-Catch": {
+    "prefix": "try",
+    "body": [
+      "try {",
+      "\t$0",
+      "} catch (${1:Exception} ${2:e}) {",
+      "\t${3:// handle exception}",
+      "}"
+    ],
+    "description": "Try-catch block"
+  },
+  "Java System.out.println": {
+    "prefix": "sout",
+    "body": "System.out.println($1);",
+    "description": "Print to console"
+  },
+  "Java Interface": {
+    "prefix": "interface",
+    "body": [
+      "public interface ${1:InterfaceName} {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a new interface"
+  }
+}

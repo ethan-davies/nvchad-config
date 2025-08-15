@@ -18,6 +18,7 @@ return {
       gleam = { "gleam" },
       go = { "gofmt" },
       html = { "prettier" },
+      java = { "google-java-format" },
       javascript = { "prettier" },
       javascriptreact = { "prettier" },
       json = { "biome" },

@@ -8,8 +8,8 @@ local themes_customs = aux.themes_customs
 
 M.base46 = {
   transparency = true,
-  theme = "bearded-arc",
-  theme_toggle = { "bearded-arc", "bearded-arc" },
+  theme = "chocolate",
+  theme_toggle = { "chocolate", "chocolate" },
   integrations = {
     "blankline",
     "cmp",

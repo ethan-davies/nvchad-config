@@ -16,6 +16,7 @@ return {
       "haskell",
       "html",
       "http",
+      "java",
       "javascript",
       "json",
       "lua",

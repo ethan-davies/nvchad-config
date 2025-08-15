@@ -29,6 +29,19 @@ return {
       html = {},
       hls = {},
       gopls = {},
+      jdtls = {
+        settings = {
+          java = {
+            inlayHints = { parameterNames = { enabled = "all" } },
+            format = {
+              settings = {
+                url = vim.fn.stdpath "config" .. "/lang-servers/intellij-java-google-style.xml",
+                profile = "GoogleStyle",
+              },
+            },
+          },
+        },
+      },
       jsonls = {},
       lua_ls = {
         settings = {
